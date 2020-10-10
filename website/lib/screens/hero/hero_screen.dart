@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'package:website/utils/raw_data.dart';
 
 import 'hero_object.dart';
@@ -20,16 +20,17 @@ class HeroAnimation extends StatelessWidget {
                     body: Container(
                       decoration: new BoxDecoration(
                         gradient: new LinearGradient(
-                            colors: [
-                              Colors.amberAccent,
-                              Colors.red,
-                              Colors.redAccent,
-                              Colors.amber
-                            ],
+                            // colors: [
+                            //   Colors.amberAccent,
+                            //   Colors.red,
+                            //   Colors.redAccent,
+                            //   Colors.amber
+                            // ],
                             begin: Alignment.topLeft,
                             end: Alignment.bottomRight,
-                            stops: [0.0, 0.3, 0.6, 1.0],
-                            tileMode: TileMode.repeated),
+                            // stops: [0.0, 0.3, 0.6, 1.0],
+                            // tileMode: TileMode.repeated
+                        ),
                       ),
                       padding: const EdgeInsets.all(16.0),
                       alignment: Alignment.topLeft,

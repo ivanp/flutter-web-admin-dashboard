@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'package:website/screens/home/home_screen.dart';
 import 'package:website/screens/login/login.dart';
 

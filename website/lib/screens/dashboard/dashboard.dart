@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'package:website/models/github_model.dart';
 import 'package:website/services/api_service.dart';
 
@@ -13,6 +13,7 @@ class Dashboard extends StatefulWidget {
 
 class _DashboardState extends State<Dashboard> {
   bool loading = false;
+
   @override
   void initState() {
     super.initState();

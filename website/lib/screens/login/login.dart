@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'package:website/screens/home/home_screen.dart';
 import 'package:website/services/api_service.dart';
 import 'package:website/utils/color_constants.dart';

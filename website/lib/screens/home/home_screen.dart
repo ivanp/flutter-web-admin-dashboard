@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'package:website/screens/dashboard/dashboard.dart';
 import 'package:website/screens/forms/form.dart';
 import 'package:website/screens/hero/hero_screen.dart';
